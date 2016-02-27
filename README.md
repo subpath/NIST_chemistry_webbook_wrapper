@@ -14,7 +14,7 @@ Or from file *requirements.txt* , with command:
 
 ### Default requests:
 
-Check full descriptions of available units and substance in file [default_request.md](https://github.com/subpath/NIST_chemistry_webbook_wrapper/blob/master/default_request.md)
+Check full descriptions of available units and substances in file [default_request.md](https://github.com/subpath/NIST_chemistry_webbook_wrapper/blob/master/default_request.md)
 
 
 ### Example of usage:
