@@ -101,4 +101,3 @@ def getNIST(fluid_id='', Temp='', Plow='', Phigh='', deltaP = '1',
     except:
         print "Please, specify parameters correctly"
 
-print getNIST(fluid_id = Fluids_ID['argon'], Temp = 30, Plow = 140, Phigh= 200, deltaP = 10, TypeOfData ='IsoTherm')
