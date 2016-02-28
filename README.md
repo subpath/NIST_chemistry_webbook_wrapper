@@ -14,6 +14,26 @@ Or from file *requirements.txt* , with command:
 
 ### Default requests:
 
+**Required variables:**
+
+- fluid_id - id of substanse 
+- Temp - temperature for IsoThermic properties
+- Plow, Phigh - range of pressure for IsoThermic properties
+- deltaP - Increment of pressure in pressure range
+- TypeOfData - Isotherm, IsoBar, IsoChor, SatP, SatT
+
+**Optional variables:**
+
+default values are: 
+- TempUnits = 'C', 
+- PresUnits = 'psia',
+- DensityUnits = 'g%2Fml' , 
+- EnergyUnits = 'kJ%2Fmol' , 
+- VelocityUnits = 'm%2Fs', 
+- ViscosityUnits = 'cP',
+- Surface_tension = 'N%2Fm', 
+- Digits = '5'
+
 Check full descriptions of available units and substances in file [description.md](https://github.com/subpath/NIST_chemistry_webbook_wrapper/blob/master/description.md)
 
 
@@ -21,7 +41,10 @@ Check full descriptions of available units and substances in file [description.m
 
 >  `data = getNIST(fluid_id = Fluids_ID['argon'], Temp = 30, Plow = 140, Phigh= 200, deltaP = 10, TypeOfData ='IsoTherm')`
 
-data will be return as pandas [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) , and then can easily managed, and exported in [different files type](http://pandas.pydata.org/pandas-docs/stable/io.html).
+
+
+
+Data will be return as pandas [DataFrame](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) , and then can easily managed, and exported in [different files type](http://pandas.pydata.org/pandas-docs/stable/io.html).
 
 
 [See for more examples](https://github.com/subpath/NIST_chemistry_webbook_wrapper/tree/master/examples).
