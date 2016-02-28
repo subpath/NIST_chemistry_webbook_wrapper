@@ -1,4 +1,4 @@
-# Available substanse 
+# Available substanses
 
                 'argon' : 'C7440371',
                 'nitrogen' : 'C7727379',
