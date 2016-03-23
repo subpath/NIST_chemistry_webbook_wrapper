@@ -4,7 +4,7 @@ Created on Fri Feb 26 17:26:39 2016
 
 @author: AOsipenko
 """
-from Fluids_ID import Fluids_ID
+
 import pandas as pd
 
 
