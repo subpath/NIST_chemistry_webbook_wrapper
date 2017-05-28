@@ -56,5 +56,3 @@ Data will be return as pandas [DataFrame](http://pandas.pydata.org/pandas-docs/s
 
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/subpath/nist_chemistry_webbook_wrapper/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
