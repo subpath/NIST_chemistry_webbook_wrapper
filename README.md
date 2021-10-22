@@ -50,9 +50,6 @@ Data will be return as pandas [DataFrame](http://pandas.pydata.org/pandas-docs/s
 [See for more examples](https://github.com/subpath/NIST_chemistry_webbook_wrapper/tree/master/examples).
 
 
-##### Author:                                                                                                                                               
-> Alexander Osipenko,     
-> e-mail: subpath@ya.ru
 
 
 
